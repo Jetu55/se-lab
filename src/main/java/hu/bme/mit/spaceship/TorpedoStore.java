@@ -39,6 +39,7 @@ public class TorpedoStore {
 
     // simulate random overheating of the launcher bay which prevents firing
     
+    //kiválaszt egy random doublet :)
     double r = generator.nextDouble();
 
     if (r >= FAILURE_RATE) {
